@@ -1,0 +1,11 @@
+eto = 13
+
+for x in range(7):
+    for y in range(eto):
+        if x == 6:
+            print("*", end="")
+        elif y == 6 - x or y == 6 + x:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
